@@ -5,7 +5,7 @@ function App() {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8002/cards")
+    fetch("https://api.jsonserve.com/DRp4Om")
       .then(response => response.json())
       .then(data => {
         setCards(data.cards);
@@ -45,7 +45,7 @@ function App() {
 document.getElementById('searchButton').addEventListener('click', function() {
   const recipientName = document.getElementById('recipientInput').value;
 
-  fetch("http://localhost:8002")
+  fetch("https://api.jsonserve.com/DRp4Om")
     .then(response => response.json())
     .then(data => {
       const cards = data.cards;
