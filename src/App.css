@@ -1,6 +1,7 @@
-
 .App {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .App-logo {
@@ -16,7 +17,6 @@
 
 .App-header {
   background-color: black;
-  background-image: url("https://media.istockphoto.com/id/1155947181/vector/fathers-day-card-of-frame-with-paper-holiday-icons.jpg?s=612x612&w=0&k=20&c=eHn2n75DRsK3jFz1wBYs6SW2RCHaE8B09YEjxVJ6qXU=");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,6 +24,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .App-link {
@@ -41,26 +44,25 @@
 
 .card-form {
   margin-bottom: 20px;
-  float: left;
 }
 
 .card-form input,
 .card-form textarea {
-  display: flex;
+  display: block;
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #1a1212;
   border-radius: 5px;
   box-sizing: border-box;
-  color:black;
+  color: black;
 }
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
-  color:white
+  justify-content: center;
+  color: white;
 }
 
 .card {
@@ -104,7 +106,7 @@
 }
 
 #addButton {
-  background-color:black;
+  background-color: black;
   color: white;
   border: none;
 }
@@ -115,5 +117,3 @@
   width: 100%;
   padding: 5px;
 }
-
-
