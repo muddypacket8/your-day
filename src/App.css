@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
 }
 
@@ -13,19 +13,20 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App {
+  background-color: black;
+  background-image: url("https://media.istockphoto.com/id/1155947181/vector/fathers-day-card-of-frame-with-paper-holiday-icons.jpg?s=612x612&w=0&k=20&c=eHn2n75DRsK3jFz1wBYs6SW2RCHaE8B09YEjxVJ6qXU=");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
-  color: #61dafb;
+  color: black;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +36,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#searchButton {
+  background-color: purple;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#searchButton:hover {
+  background-color: purple;
+}
+
+#searchButton:focus {
+  outline: auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-message {
+  margin-top: 5px;
+}
+
+.card-sender {
+  font-style: italic;
+  color: #888;
 }

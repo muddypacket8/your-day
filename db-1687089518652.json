@@ -1,0 +1,22 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "recipient": "Joseph Kimani Mburu",
+      "message": "you're like a superhero! Wishing you a fantastic Father's Day.",
+      "sender": "The Mburu's"
+    },
+    {
+      "id": 2,
+      "recipient": "Ezekiel Macharia Mburu",
+      "message": "Happy Father's Day! Thank you for your love and guidance.",
+      "sender": "The Mburu's"
+    },
+    {
+      "id": 3,
+      "recipient": "Amos Kinuthia Mburu",
+      "message": "Happy Father's Day ! and Thanks for all you have done for us",
+      "sender": "The Mburu's"
+    }
+  ]
+}
