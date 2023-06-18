@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -13,7 +14,7 @@
   }
 }
 
-.App {
+.App-header {
   background-color: black;
   background-image: url("https://media.istockphoto.com/id/1155947181/vector/fathers-day-card-of-frame-with-paper-holiday-icons.jpg?s=612x612&w=0&k=20&c=eHn2n75DRsK3jFz1wBYs6SW2RCHaE8B09YEjxVJ6qXU=");
   min-height: 100vh;
@@ -38,53 +39,81 @@
   }
 }
 
-#searchButton {
-  background-color: purple;
-  color: #fff;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
+.card-form {
+  margin-bottom: 20px;
+  float: left;
 }
 
-#searchButton:hover {
-  background-color: purple;
+.card-form input,
+.card-form textarea {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #1a1212;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color:black;
 }
 
-#searchButton:focus {
-  outline: auto;
-}
-
-.cards {
+.card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
+  color:white
 }
 
 .card {
+  background-image: url(https://media.istockphoto.com/id/1181671022/photo/portrait-of-happy-father-hugging-his-daughter.jpg?s=612x612&w=0&k=20&c=Ye4C98X0km4gSsJgKeXIZD1_9dKX0SQD2xDwXOclG0U=);
   width: 300px;
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #20cd5d;
   border-radius: 5px;
-  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
 }
 
-.card-image {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.card-title {
+.card h2 {
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
-.card-message {
-  margin-top: 5px;
+.card p {
+  margin: 0;
 }
 
-.card-sender {
-  font-style: italic;
-  color: #888;
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
+
+.card-actions button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-actions button:hover {
+  background-color: #d5bd34;
+}
+
+.card-actions button:focus {
+  outline: auto;
+}
+
+#addButton {
+  background-color:black;
+  color: white;
+  border: none;
+}
+
+#searchInput {
+  color: #20cd5d;
+  background-color: black;
+  width: 100%;
+  padding: 5px;
+}
+
+
