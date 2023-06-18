@@ -58,7 +58,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          courtesy of your day see this video
+          courtesy of your day click here please !
         </a>
         <div className="card-form">
           <input
