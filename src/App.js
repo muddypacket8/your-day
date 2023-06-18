@@ -26,7 +26,7 @@ function App() {
       id: newCardId,
       recipient: recipientInput,
       message: defaultMessage,
-      sender: "The Mburu's", 
+      sender: "Me to You", 
     };
 
     // Update the state with the new card
